@@ -46,7 +46,6 @@
     - [Detalhar](#detalhar-mensagem)
     - [Excluir](#excluir-mensagem)
 
-u
 ### Cadastrar usuário
 
 `POST` /api/usuarios
