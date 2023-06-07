@@ -13,10 +13,10 @@
 ## Endpoints
 - Usuário
     - [Cadastrar](#cadastrar-usuário)
-    - [Listar](#listar-usuarios)
-    - [Detalhar](#detalhar-usuarios)
-    - [Alterar](#alterar-usuarios)
-    - [Excluir](#excluir-usuarios)
+    - [Listar](#listar-usuário)
+    - [Detalhar](#detalhar-usuário)
+    - [Alterar](#alterar-usuário)
+    - [Excluir](#excluir-usuário)
 
 - Telefone
     - [Cadastrar](#cadastrar-telefone)
@@ -25,16 +25,16 @@
     - [Excluir](#excluir-telefone)
 
 - Publicação
-    - [Cadastrar](#cadastrar-publicacao)
-    - [Detalhar](#detalhar-publicacao)
-    - [Alterar](#alterar-publicacao)
-    - [Excluir](#excluir-publicacao)
+    - [Cadastrar](#cadastrar-publicação)
+    - [Detalhar](#detalhar-publicação)
+    - [Alterar](#alterar-publicação)
+    - [Excluir](#excluir-publicação)
 
 - Comentário
-    - [Cadastrar](#cadastrar-comentario)
-    - [Detalhar](#detalhar-comentario)
-    - [Alterar](#alterar-comentario)
-    - [Excluir](#excluir-comentario)
+    - [Cadastrar](#cadastrar-comentário)
+    - [Detalhar](#detalhar-comentário)
+    - [Alterar](#alterar-comentário)
+    - [Excluir](#excluir-comentário)
     
 - Curtida
     - [Cadastrar](#cadastrar-curtida)
