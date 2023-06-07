@@ -11,8 +11,8 @@
  - [Maria Eduarda Herrera](https://github.com/herrera3)
 
 ## Endpoints
-- Usuario
-    - [Cadastrar](#cadastrar-usuario)
+- Usuário
+    - [Cadastrar](#cadastrar-usuário)
     - [Listar](#listar-usuarios)
     - [Detalhar](#detalhar-usuarios)
     - [Alterar](#alterar-usuarios)
@@ -24,13 +24,13 @@
     - [Alterar](#alterar-telefone)
     - [Excluir](#excluir-telefone)
 
-- Publicacao
+- Publicação
     - [Cadastrar](#cadastrar-publicacao)
     - [Detalhar](#detalhar-publicacao)
     - [Alterar](#alterar-publicacao)
     - [Excluir](#excluir-publicacao)
 
-- Comentario
+- Comentário
     - [Cadastrar](#cadastrar-comentario)
     - [Detalhar](#detalhar-comentario)
     - [Alterar](#alterar-comentario)
