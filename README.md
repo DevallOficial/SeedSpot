@@ -3,6 +3,9 @@
  O SeedSpot promove a produção de alimentos saudáveis e livres de agrotóxicos, permitindo que as pessoas tenham maior controle sobre o que consomem e incentivando a adoção de uma alimentação mais equilibrada, e fornece informações e técnicas de plantio de forma acessível aos usuários, já que muitas pessoas têm interesse em cultivar suas próprias hortas, mas podem não ter acesso a informações adequadas ou conhecimento técnico sobre o assunto.
  Nesta documentação, você encontrará informações detalhadas sobre as rotas disponíveis, os parâmetros necessários e as respostas retornadas pela API.
  
+ ## Pitch
+ https://youtu.be/gBMp1TuDY0A
+ 
  ## Contribuidores 
  
  - [Caio Henrique Martins](https://github.com/Caiohrqm)
