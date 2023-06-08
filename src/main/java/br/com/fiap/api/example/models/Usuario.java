@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -19,22 +20,22 @@ public class Usuario {
     private Long id;
 
     @Email
-    @NotBlank(message = "Insira um email válido")
+    @NotNull(message = "Insira um email válido")
     @Column(name = "DS_EMAIL")
     private String email;
 
-    @NotBlank(message = "Insira uma senha válida")
+    @NotNull(message = "Insira uma senha válida")
     @Column(name = "DS_SENHA")
     private String senha;
 
-    @NotBlank
+    @NotNull
     @Column(name = "NM_USUARIO")
     private String nome;
 
-    @NotBlank
+    @NotNull
     @Column(name = "NM_ESTADO")
     private String estado;
-    @NotBlank
+    @NotNull
     @Column(name = "NM_CIDADE")
     private String cidade;
 

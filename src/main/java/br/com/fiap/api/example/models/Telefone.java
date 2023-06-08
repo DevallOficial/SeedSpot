@@ -3,6 +3,7 @@ package br.com.fiap.api.example.models;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -17,15 +18,15 @@ public class Telefone {
     @Column(name = "id_telefone")
     private Long id;
 
-    @NotBlank(message = "EX: 55")
+    @NotNull(message = "EX: 55")
     @Column(name = "NR_DDD")
     private int numeroDDD;
 
-    @NotBlank(message = "EX: 11")
+    @NotNull(message = "EX: 11")
     @Column(name = "NR_DDI")
     private int numeroDDI;
 
-    @NotBlank(message = "EX: 999999999")
+    @NotNull(message = "EX: 999999999")
     @Column(name = "NR_TELEFONE")
     private int nrTelefone;
     @OneToOne

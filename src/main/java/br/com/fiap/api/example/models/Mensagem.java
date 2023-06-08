@@ -1,12 +1,15 @@
 package br.com.fiap.api.example.models;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.util.Date;
 
 @Entity
@@ -20,15 +23,16 @@ public class Mensagem {
     @Column(name = "id_mensagem")
     private Long id;
 
-    @NotBlank
+    @NotNull
     @Column(name = "DS_CONTEUDO_MSG")
     private String conteudo;
-    @NotBlank
+    @NotNull
     @Column(name = "DT_DATA_MSG")
     private Date data;
-    @NotBlank
+    @NotNull
+    @JsonFormat(pattern = "HH:mm:ss")
     @Column(name = "HR_DATE_MSG")
-    private LocalDateTime hora;
+    private LocalTime hora;
 
     @ManyToOne
     @JoinColumn(name = "id_usuario")
